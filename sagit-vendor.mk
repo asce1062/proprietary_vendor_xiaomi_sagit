@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -106,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/sagit/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/sagit/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
@@ -117,7 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/xiaomi/sagit/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/xiaomi/sagit/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/xiaomi/sagit/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/sagit/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/xiaomi/sagit/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/sagit/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -142,13 +140,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/sagit/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/sagit/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
-    vendor/xiaomi/sagit/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/sagit/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/xiaomi/sagit/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/xiaomi/sagit/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/xiaomi/sagit/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/sagit/proprietary/lib64/libqminvapi.so:system/lib64/libqminvapi.so \
-    vendor/xiaomi/sagit/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/sagit/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/xiaomi/sagit/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/sagit/proprietary/vendor/bin/qti:system/vendor/bin/qti \
@@ -178,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
@@ -568,8 +563,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
@@ -676,7 +669,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/libvpphvx.so:system/vendor/lib64/libvpphvx.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
@@ -695,7 +687,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     libsdm-disp-apis \
-    QtiTelephonyService \
     TimeService \
     datastatusnotification \
     embms \
