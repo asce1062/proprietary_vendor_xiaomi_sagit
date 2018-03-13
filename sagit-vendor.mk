@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
-    vendor/xiaomi/sagit/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb \
@@ -35,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp:system/vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:system/vendor/etc/acdbdata/adsp_avs_config.acdb \
-    vendor/xiaomi/sagit/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/xiaomi/sagit/proprietary/vendor/etc/thermal-engine-8998.conf:system/vendor/etc/thermal-engine-8998.conf \
@@ -166,8 +164,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_imx386_semco_eeprom.so:system/vendor/lib/libmmcamera_sagit_imx386_semco_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libmmcamera_sagit_s5k3m3_semco_eeprom.so:system/vendor/lib/libmmcamera_sagit_s5k3m3_semco_eeprom.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:system/vendor/lib64/com.fingerprints.extension@1.0.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/fingerprint.fpc.so:system/vendor/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/fingerprint.goodix.so:system/vendor/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/fingerprint.fpc.msm8998.so:system/vendor/lib64/hw/fingerprint.fpc.msm8998.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib64/hw/fingerprint.goodix.msm8998.so:system/vendor/lib64/hw/fingerprint.goodix.msm8998.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/libgf_hal.so:system/vendor/lib64/libgf_hal.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so:system/vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
