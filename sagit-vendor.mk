@@ -22,8 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/etc/camera/sagit_imx268_liteon_chromatix.xml:system/etc/camera/sagit_imx268_liteon_chromatix.xml \
     vendor/xiaomi/sagit/proprietary/etc/firmware/tfa98xx_aac.cnt:system/etc/firmware/tfa98xx_aac.cnt \
     vendor/xiaomi/sagit/proprietary/etc/firmware/tfa98xx_ssi.cnt:system/etc/firmware/tfa98xx_ssi.cnt \
-    vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
-    vendor/xiaomi/sagit/proprietary/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_jdi_fhd_cmd_incell_dsi_panel.xml \
+    vendor/xiaomi/sagit/proprietary/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml:system/vendor/etc/qdcm_calib_data_lgd_fhd_cmd_incell_dsi_panel.xml \
     vendor/xiaomi/sagit/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb \
     vendor/xiaomi/sagit/proprietary/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb:system/vendor/etc/acdbdata/Forte/Forte_General_cal.acdb \
@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_preview.so:system/vendor/lib/libchromatix_imx386_semco_cpp_preview.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_snapshot.so:system/vendor/lib/libchromatix_imx386_semco_cpp_snapshot.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hdr.so \
+    vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_imx386_semco_cpp_snapshot_hht.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_video.so:system/vendor/lib/libchromatix_imx386_semco_cpp_video.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx386_semco_cpp_video_hdr.so \
     vendor/xiaomi/sagit/proprietary/vendor/lib/libchromatix_imx386_semco_default_preview.so:system/vendor/lib/libchromatix_imx386_semco_default_preview.so \
